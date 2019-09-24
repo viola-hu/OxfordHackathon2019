@@ -32,7 +32,7 @@ class Supplier extends Component {
 
   render(){
     return(
-      <Container style={{margin:'1rem auto'}}>
+      <Container style={{margin:'1rem auto', margin:'5% auto', height:'100%'}}>
         <Row>
           <Col className="leftLighting" lg={4}></Col>
           <Col lg={8} style={{background:'white', borderRadius: '20px'}}>

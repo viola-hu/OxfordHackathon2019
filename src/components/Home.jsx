@@ -3193,8 +3193,6 @@ class Home extends Component {
               ]
             }
           }
-          
-
     } // end of constructor
 
     handleClick = () => {
@@ -3207,17 +3205,14 @@ class Home extends Component {
                 <div className='items'>
                     <div className='contents'>
                     <div className='items-header'>
-                        <h3>578 Items</h3>
+                        <h3>{Object.keys(this.state).length} Items</h3>
                         <input type='text' placeholder='Search items'/>
-                        <img className='items-img' style={{maxWidth:'70%'}} src={process.env.PUBLIC_URL +`search.png`}/>
-                        
+                        <img className='items-img' src={process.env.PUBLIC_URL +`search.png`}/>
                     </div>
                 {
                     this.state['Capacitors'].bidders.length > 0
                     ?
-
-                    
-                    Object.keys(this.state).map((p, index) => 
+                    Object.keys(this.state).map((p, index) =>
                     <div className='items-container'>
 
                         <Link to={{
@@ -3228,24 +3223,24 @@ class Home extends Component {
                             }}>
                         <button onClick={this.handleClick}>
                         {/* <div className='button-right'> */}
-                        <div className='bidder'>{`${index + 1}.`}</div>
-                        <div className='bidder'>{p}</div>
+                        <div className='bidder' style={{width: '10%'}}>{`${index + 1}.`}</div>
+                        <div className='bidder' style={{width: '60%'}}>{p}</div>
                         {/* </div> */}
-                        <div className='budget' >{`Budget: $${this.state[p].info.budget}`}</div>
+                        <div className='budget' style={{width: '30%'}}>{`Budget: $${this.state[p].info.budget}`}</div>
                         {/* {console.log(this.state[p])}
                         {console.log(this.state[p].info.budget)} */}
-                        {/* {this.state[p].map(m => 
+                        {/* {this.state[p].map(m =>
                             <div>{m.info.budget}</div>
                         )} */}
                         </button>
                         </Link>
-                    </div>      
-                    // Object.values(this.state).map(p => 
+                    </div>
+                    // Object.values(this.state).map(p =>
                     // <div>
                     //     <div>{p.info.budget}</div>
                     //     {/* {console.log(p.info.budget)}       */}
                     //     {/* <div>{p.info.budget}</div> */}
-                    // </div>      
+                    // </div>
                     )
                     :
                     <div>Loading...</div>
@@ -3258,5 +3253,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-

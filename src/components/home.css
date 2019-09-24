@@ -6,21 +6,33 @@ body {
 
 .items {
     width: 50vw;
-    position: relative;
+    /* position: relative; */
     background-color: white;
     /* padding-left: 20vw; */
     border-radius: 20px;
-    margin: auto;
-    margin-top: 4vh;
+    margin: 4vh auto;
+    /* margin: auto;
+    margin-top: 4vh; */
     -webkit-box-shadow: 11px 4px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 11px 4px 20px 0px rgba(0,0,0,0.75);
     box-shadow: 11px 4px 20px 0px rgba(0,0,0,0.75);
 }
 
-.items-container {
-    /* width: 100%;
-    display: flex; */
+.contents {
+  padding: 3vw;
+  /* padding-left: 3vw;
+  padding-top: 3vw;
+  padding-right: 3vw; */
 }
+
+.items-header {
+  padding-bottom: 2vh;
+}
+
+.items-img {
+    padding-left: 1vw;
+}
+
 .items-container button {
     width: 100%;
     text-align: left;
@@ -29,25 +41,11 @@ body {
     border-bottom: 1px solid black;
     padding: 15px;
 }
+
 .items-container button div {
   padding-left: 2vw;
-}
-
-.contents {
-    padding-left: 3vw;
-    padding-top: 3vw;
-    padding-right: 3vw;
-}
-
-.items-header {
-    padding-bottom: 2vh;
 }
 
 .bidder {
     font-weight: 800;
 }
-
-.items-img {
-    padding-left: 1vw;
-}
-
