@@ -3207,7 +3207,7 @@ class Home extends Component {
                     <div className='items-header'>
                         <h3>{Object.keys(this.state).length} Items</h3>
                         <input type='text' placeholder='Search items'/>
-                        <img className='items-img' src='../images/oxford.png'/>
+                        <img className='items-img' src={process.env.PUBLIC_URL +`/search.png`}/>
                     </div>
                 {
                     this.state['Capacitors'].bidders.length > 0
