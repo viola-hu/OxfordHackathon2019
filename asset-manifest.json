@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/OxfordHackathon2019/static/css/main.12dab27e.chunk.css",
-    "main.js": "/OxfordHackathon2019/static/js/main.bd8182d4.chunk.js",
-    "main.js.map": "/OxfordHackathon2019/static/js/main.bd8182d4.chunk.js.map",
+    "main.css": "/OxfordHackathon2019/static/css/main.aa7c6bba.chunk.css",
+    "main.js": "/OxfordHackathon2019/static/js/main.97fb3aed.chunk.js",
+    "main.js.map": "/OxfordHackathon2019/static/js/main.97fb3aed.chunk.js.map",
     "runtime~main.js": "/OxfordHackathon2019/static/js/runtime~main.0cf50eff.js",
     "runtime~main.js.map": "/OxfordHackathon2019/static/js/runtime~main.0cf50eff.js.map",
-    "static/js/2.c918cf06.chunk.js": "/OxfordHackathon2019/static/js/2.c918cf06.chunk.js",
-    "static/js/2.c918cf06.chunk.js.map": "/OxfordHackathon2019/static/js/2.c918cf06.chunk.js.map",
+    "static/js/2.ded860e1.chunk.js": "/OxfordHackathon2019/static/js/2.ded860e1.chunk.js",
+    "static/js/2.ded860e1.chunk.js.map": "/OxfordHackathon2019/static/js/2.ded860e1.chunk.js.map",
     "index.html": "/OxfordHackathon2019/index.html",
-    "precache-manifest.2835891ae3aea51cd67f1873d8773d18.js": "/OxfordHackathon2019/precache-manifest.2835891ae3aea51cd67f1873d8773d18.js",
+    "precache-manifest.88df47c0c363cd8d68fd6fffc4ffb759.js": "/OxfordHackathon2019/precache-manifest.88df47c0c363cd8d68fd6fffc4ffb759.js",
     "service-worker.js": "/OxfordHackathon2019/service-worker.js",
-    "static/css/main.12dab27e.chunk.css.map": "/OxfordHackathon2019/static/css/main.12dab27e.chunk.css.map",
+    "static/css/main.aa7c6bba.chunk.css.map": "/OxfordHackathon2019/static/css/main.aa7c6bba.chunk.css.map",
     "static/media/index.css": "/OxfordHackathon2019/static/media/leftLightening.0cbd653d.png"
   }
 }
