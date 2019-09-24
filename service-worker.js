@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/OxfordHackathon2019/precache-manifest.88df47c0c363cd8d68fd6fffc4ffb759.js"
+  "/OxfordHackathon2019/precache-manifest.6ecfa5da847dcebe42e6f8562cdfad5f.js"
 );
 
 self.addEventListener('message', (event) => {
