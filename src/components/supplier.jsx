@@ -40,10 +40,10 @@ class Supplier extends Component {
               <h3>{this.state.name}</h3>
             </Row>
             <Row style={{paddingLeft:'1rem'}}>
-              <Image src={process.env.PUBLIC_URL +`yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
-              <Image src={process.env.PUBLIC_URL +`yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
-              <Image src={process.env.PUBLIC_URL +`yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
-              <Image src={process.env.PUBLIC_URL +`yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
+              <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
+              <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
+              <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
+              <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
             </Row>
             <Row style={{paddingLeft:'1rem'}}>
               <p>{this.state.description}</p>

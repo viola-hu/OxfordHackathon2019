@@ -64,7 +64,7 @@ class Item extends Component {
 
   render(){
     let averageBid = (1000000.00 + 2000000.00 + 1500000.00 + 870000.00 + 650000.00 + 1000000.00) / 6;
-    let yellowStars = new Array(5).fill(process.env.PUBLIC_URL +`Vector3.png`);
+    let yellowStars = new Array(5).fill(process.env.PUBLIC_URL +`/Vector3.png`);
 
     return(
       <Container>
@@ -72,7 +72,7 @@ class Item extends Component {
           <Col lg={4}>
             <Row style={{margin: '.5rem .5rem .5rem 0'}}>
             <Link to={`/home}`}>
-              <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`Vector3.png`}/> {' '}
+              <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`/Vector3.png`}/> {' '}
               George Street Project
             </Link>
             </Row>
@@ -155,7 +155,7 @@ class Item extends Component {
                   }
                 <ListGroup.Item>
                   <Link to='/upload-image'>
-                  <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`Upload.png`}/> {' '}
+                  <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`/Upload.png`}/> {' '}
                   Upload Documents
                   </Link>
                 </ListGroup.Item>
@@ -175,7 +175,7 @@ class Item extends Component {
               }
               </Row>
               <Link to='/add-team-members'>
-                <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`Add.png`}/> {' '}
+                <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`/Add.png`}/> {' '}
                 Add team members
               </Link>
 
@@ -186,12 +186,12 @@ class Item extends Component {
             <h3>Bids</h3>
             <Row style={{textAlign: 'center', padding:'1rem', borderRadius:'20px'}}>
               <Col style={{background:'turquoise', color:'white'}}>
-                <Image style={{maxWidth:'70%'}} src={process.env.PUBLIC_URL +`bestBid.png`}/>
+                <Image style={{maxWidth:'70%'}} src={process.env.PUBLIC_URL +`/bestBid.png`}/>
                 <h3>$870,000</h3>
                 <h5>Best Offer</h5>
               </Col>
               <Col style={{background:'grey', color:'white'}}>
-                <Image style={{maxWidth:'70%'}} src={process.env.PUBLIC_URL +`averageBid.png`}/>
+                <Image style={{maxWidth:'70%'}} src={process.env.PUBLIC_URL +`/averageBid.png`}/>
                 <h3>$1,170,000</h3>
                 <h5>Average Bid</h5>
               </Col>
