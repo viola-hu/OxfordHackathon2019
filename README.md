@@ -1,5 +1,4 @@
-# Oxford Global Hackathon 2019 
-#### 14-15 Sep 2019, Sydney
+# Oxford Global Hackathon 2019  <h6>14-15 Sep 2019, Sydney</h6>
 
 ## The Problem:
 When constructing a large building, Oxford Properties must go down thousands of line items of each individual material needed to build the site and source suppliers. Pricing and quality control can be difficult to maintain.
