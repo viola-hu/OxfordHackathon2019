@@ -1,4 +1,4 @@
-<span style="font-size:larger">Oxford Global Hackathon 2019</span>
+#Oxford Global Hackathon 2019
 <span style="font-size:medium">(14-15 Sep 2019, Sydney)</span>
 
 ## The Problem:
