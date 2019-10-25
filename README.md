@@ -8,7 +8,6 @@ When constructing a large building, Oxford Properties must go down thousands of 
 Our solution to this was to build a supplier marketplace whereby suppliers can put in bids to win the contract for that material. By nature of increased competition, this marketplace gives Oxford Properties greater exposure to pricing and quality control.
 
 #### Live Demo:
-Link:
 All this accomplished in 40hrs.
 
 
