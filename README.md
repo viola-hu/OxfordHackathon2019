@@ -7,13 +7,35 @@ When constructing a large building, Oxford Properties must go down thousands of 
 Our solution to this was to build a supplier marketplace whereby suppliers can put in bids to win the contract for that material. By nature of increased competition, this marketplace gives Oxford Properties greater exposure to pricing and quality control.
 
 ## Live Demo:
-All this accomplished in 40hrs.
+All this accomplished in 20hrs.
 
 ## Tech used:
 * React
 * Bootstrap
 
+## Getting Started
+### Prerequisites
+Node.js npm or yarn
 
+### Installation
+Install NPM packages
+
+```
+npm install
+```
+or
+```
+yarn install
+```
+
+### Run locally
+```
+npm start
+```
+or
+```
+yarn start
+```
 
 ## Presentation:
 Link: https://drive.google.com/open?id=1rTsWGMyjCoP1Ufx-8jWhvF0ArjVVFFUL
