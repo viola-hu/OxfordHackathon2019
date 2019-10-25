@@ -1,11 +1,14 @@
 # Oxford Global Hackathon 2019
 
 ## Oxford Property Hackathon
-The Problem: When constructing a large building, Oxford Property must go down thousands of line items of each individual material needed to build the site and source suppliers. Pricing and Quality controls can be difficult to maintain.
+### The Problem:
+When constructing a large building, Oxford Property must go down thousands of line items of each individual material needed to build the site and source suppliers. Pricing and Quality controls can be difficult to maintain.
 
+### The solution:
 Our solution to this was to build a supplier marketplace whereby suppliers can put in bids to win the contract for that material. By nature of increased competition, this marketplace give Oxford Properties greater exposure to price and quality control.
 
-All this accomplished in 40hrs. Demo: 
+All this accomplished in 40hrs.
+Live Demo: 
 
 
 
