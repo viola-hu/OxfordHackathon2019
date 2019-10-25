@@ -4,7 +4,7 @@
 When constructing a large building, Oxford Properties must go down thousands of line items of each individual material needed to build the site and source suppliers. Pricing and quality control can be difficult to maintain.
 
 ## The solution:
-Our solution to this was to build a supplier marketplace whereby suppliers can put in bids to win the contract for that material. By nature of increased competition, this marketplace gives Oxford Properties greater exposure to pricing and quality control.
+Our solution to this was to build a supplier marketplace whereby suppliers can put in bids to win the contract for that material. By nature of increased competition, this marketplace gives Oxford Properties greater exposure to prices and quality controls.
 
 ## Live Demo:
 All this accomplished in 20hrs.
@@ -25,7 +25,7 @@ npm install
 ```
 or
 ```
-yarn install
+yarn
 ```
 
 ### Run locally
