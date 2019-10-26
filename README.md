@@ -10,7 +10,6 @@ Our solution to this was to build a supplier marketplace whereby suppliers can p
 All this accomplished in 20hrs.
 
 ## Tech used:
-* JavaScript
 * React
 * Bootstrap
 
