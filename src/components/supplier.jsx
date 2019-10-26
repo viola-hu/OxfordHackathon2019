@@ -60,7 +60,7 @@ class Supplier extends Component {
               </ListGroup.Item>
             </ListGroup>
             <div style={{textAlign:'center'}}>
-            <Row style={{background:'black', borderRadius:'20px', width:'70%', color:'white', margin: '1rem auto', padding:'1rem'}}>
+            <Row style={{background:'black', borderRadius:'20px', width:'80%', color:'white', margin: '1rem auto', padding:'1rem'}}>
               <Col lg={4}>
                 <h3> {this.state.completed}</h3>
                 <p>Jobs completed</p>

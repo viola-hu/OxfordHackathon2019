@@ -71,7 +71,7 @@ class Item extends Component {
         <Row>
           <Col lg={4}>
             <Row style={{margin: '.5rem .5rem .5rem 0'}}>
-            <Link to={`/home}`}>
+            <Link to={`/`}>
               <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`/Vector3.png`}/> {' '}
               George Street Project
             </Link>
