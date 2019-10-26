@@ -206,7 +206,7 @@ class Item extends Component {
                     <ListGroup.Item style={{background:'black', color:'white'}}>
                       <Row >
                       <Col lg={8} style={{padding: '0 0 0 1rem'}}>
-                        <Link to={'/supplier'}>
+                        <Link to={'/supplier'} style={{textDecoration:'none', color:'white'}}>
                         {b.name}
                         </Link>
                       </Col>
