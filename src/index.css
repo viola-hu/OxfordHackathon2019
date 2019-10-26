@@ -32,3 +32,7 @@ code {
 .black-box{
   background: url(./images/blackBox.png);
 }
+
+.bidders:hover{
+  font-weight: 600;
+}

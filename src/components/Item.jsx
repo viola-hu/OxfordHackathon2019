@@ -204,7 +204,7 @@ class Item extends Component {
                 this.state.bidders.map( b => (
                   <ListGroup variant="flush" style={{width:'100%' }}>
                     <ListGroup.Item style={{background:'black', color:'white'}}>
-                      <Row >
+                      <Row className='bidders'>
                       <Col lg={8} style={{padding: '0 0 0 1rem'}}>
                         <Link to={'/supplier'} style={{textDecoration:'none', color:'white'}}>
                         {b.name}
