@@ -76,7 +76,7 @@ class Item extends Component {
               George Street Project
             </Link>
             </Row>
-            <Row>
+            <Row style={{background: 'white', borderRadius:'20px'}}>
             <Figure>
               <Figure.Image
                 style={{maxWidth: '100%', borderRadius: '20px'}}
@@ -134,8 +134,8 @@ class Item extends Component {
             </Figure>
             </Row>
           </Col>
-          <Col lg={3} style={{margin:'1rem'}}>
-            <Row style={{background:'white', borderRadius:"20px", margin:'1rem auto'}}>
+          <Col lg={3} style={{margin:'2.5rem 2.5rem 0'}}>
+            <Row style={{background:'white', borderRadius:"20px", height:'45%', padding:'1rem'}}>
               <h3>Documents</h3>
               <ListGroup variant="flush">
                   {
@@ -161,13 +161,17 @@ class Item extends Component {
                 </ListGroup.Item>
               </ListGroup>
             </Row>
-            <Row style={{background:'white', borderRadius:"20px"}}>
+            <Row style={{height:'5%'}}>
+            </Row>
+            <Row style={{background:'white', borderRadius:"20px", height:'50%', padding:'1rem'}}>
               <h3>Team</h3>
               <Row>
               {
                 this.state.team.map( member => (
-                  <Col lg={3}>
-                    <Image style={{maxWidth:'50px'}} src={member.image} roundedCircle />
+                  <Col lg={4}>
+                    <div>
+                      <Image style={{maxHeight:'50px'}} src={member.image} roundedCircle />
+                    </div>
                     <p>{member.name}</p>
                     <p>{member.job}</p>
                   </Col>
@@ -178,19 +182,18 @@ class Item extends Component {
                 <Image style={{maxWidth:'20px'}} src={process.env.PUBLIC_URL +`/Add.png`}/> {' '}
                 Add team members
               </Link>
-
             </Row>
           </Col>
 
-          <Col lg={4} style={{background:'black', color:'white', borderRadius:"20px", margin:'1rem auto'}}>
+          <Col lg={4} style={{background:'black', color:'white', borderRadius:"20px", margin:'2.5rem 0 0', padding:'1rem'}}>
             <h3>Bids</h3>
             <Row style={{textAlign: 'center', padding:'1rem', borderRadius:'20px'}}>
-              <Col style={{background:'turquoise', color:'white'}}>
+              <Col style={{background:'turquoise', color:'white', borderRadius:'20px 0 0 20px'}}>
                 <Image style={{maxWidth:'70%'}} src={process.env.PUBLIC_URL +`/bestBid.png`}/>
                 <h3>$870,000</h3>
                 <h5>Best Offer</h5>
               </Col>
-              <Col style={{background:'grey', color:'white'}}>
+              <Col style={{background:'grey', color:'white', borderRadius:'0 20px 20px 0'}}>
                 <Image style={{maxWidth:'70%'}} src={process.env.PUBLIC_URL +`/averageBid.png`}/>
                 <h3>$1,170,000</h3>
                 <h5>Average Bid</h5>
@@ -202,12 +205,12 @@ class Item extends Component {
                   <ListGroup variant="flush" style={{width:'100%' }}>
                     <ListGroup.Item style={{background:'black', color:'white'}}>
                       <Row >
-                      <Col lg={8}>
+                      <Col lg={8} style={{padding: '0 0 0 1rem'}}>
                         <Link to={'/supplier'}>
                         {b.name}
                         </Link>
                       </Col>
-                      <Col lg={4}>
+                      <Col lg={4} style={{padding: '0 1rem 0 0'}}>
                         {b.bid}
                       </Col>
                       </Row>

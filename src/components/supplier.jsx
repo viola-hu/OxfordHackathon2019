@@ -35,20 +35,20 @@ class Supplier extends Component {
       <Container style={{margin:'1rem auto', margin:'5% auto', height:'100%'}}>
         <Row>
           <Col className="leftLighting" lg={4}></Col>
-          <Col lg={8} style={{background:'white', borderRadius: '20px'}}>
-            <Row style={{paddingLeft:'1rem'}}>
+          <Col lg={8} style={{background:'white', borderRadius: '0 20px 20px 0'}}>
+            <Row style={{padding:'2rem 2rem 1rem '}}>
               <h3>{this.state.name}</h3>
             </Row>
-            <Row style={{paddingLeft:'1rem'}}>
+            <Row style={{padding:'1rem 2rem'}}>
               <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
               <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
               <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
               <Image src={process.env.PUBLIC_URL +`/yellowStar.png`} style={{width: '20px', height:'20px'}}fluid />
             </Row>
-            <Row style={{paddingLeft:'1rem'}}>
+            <Row style={{padding:'1rem 2rem'}}>
               <p>{this.state.description}</p>
             </Row>
-            <ListGroup variant="flush">
+            <ListGroup style={{padding:'1rem'}} variant="flush">
               <ListGroup.Item>
                 Certification and Accreditation: {this.state.certification}
               </ListGroup.Item>
@@ -60,7 +60,7 @@ class Supplier extends Component {
               </ListGroup.Item>
             </ListGroup>
             <div style={{textAlign:'center'}}>
-            <Row style={{background:'black', borderRadius:'20px', width:'70%', color:'white', margin: '1rem auto'}}>
+            <Row style={{background:'black', borderRadius:'20px', width:'70%', color:'white', margin: '1rem auto', padding:'1rem'}}>
               <Col lg={4}>
                 <h3> {this.state.completed}</h3>
                 <p>Jobs completed</p>
