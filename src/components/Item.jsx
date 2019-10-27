@@ -168,7 +168,7 @@ class Item extends Component {
               <Row>
               {
                 this.state.team.map( member => (
-                  <Col lg={4}>
+                  <Col lg={4} style={{textAlign:'center'}}>
                     <div>
                       <Image style={{maxHeight:'50px'}} src={member.image} roundedCircle />
                     </div>
