@@ -24,7 +24,7 @@ code {
 .leftLighting{
   background: url(./images/leftLightening.png);
   background-size: cover;
-  height: 80vh;
+  /* height: 80vh; */
   border-radius: 20px 0 0 20px;
 }
 
